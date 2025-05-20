@@ -1,22 +1,27 @@
-# Environment variables
-.env
+# Java
+*.class
+*.jar
+*.war
+target/
+build/
 
-# Python
-__pycache__/
-*.py[cod]
-venv/
-.venv/
+# Maven
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
 
-# Database
-*.db
+# Gradle
+.gradle/
+build/
 
 # IDE
 .idea/
+*.iml
 .vscode/
+.settings/
+.classpath
+.project
 
 # OS
 .DS_Store
 Thumbs.db
-
-# Logs
-*.log
